@@ -1,0 +1,23 @@
+{
+  "name": "<REPLACE-WITH-YOUR-PACKAGE-NAME>",
+  "version": "<REPLACE-WITH-VERSION>",
+  "description": "<REPLACE WITH DESCRIPTION>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NASA-PDS/<REPLACE-THIS>.git"
+  },
+  "keywords": [
+    "<REPLACE-WITH-KEYWORDS>"
+  ],
+  "author": " <REPLACE WITH YOUR NAME>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NASA-PDS/<REPLACE-THIS>/issues"
+  },
+  "homepage": "https://github.com/NASA-PDS/<REPLACE-THIS>",
+  "dependencies": {}
+}
