@@ -11,7 +11,7 @@ This `README.md` documents the _template repository_ and contains instructions o
 
 ## 🏃 Getting Started With This Template
 
-Our [https://github.com/NASA-PDS/nasa-pds.github.io/wiki/Git-and-Github-Guide#creating-a-new-repo](wiki on Git and GitHub) has lots of useful information on setting up a new repository using the PDS Engineering Node templates.
+Our [wiki on Git and GitHub]([wiki on Git and GitHub](https://github.com/NASA-PDS/nasa-pds.github.io/wiki/Git-and-Github-Guide#creating-a-new-repo)) has lots of useful information on setting up a new repository using the PDS Engineering Node templates.
 
 **👉 Important!** You must assign the teams as mentioned on the wiki page above! At a minimum, these are:
 
