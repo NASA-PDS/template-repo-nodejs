@@ -88,7 +88,7 @@ For information on how to contribute to NASA-PDS codebases please take a look at
 
 (These instructions can probably stay as-is.)
 
-The PDS Engineering Node recommends using [detect-secrets](https://github.com/NASA-PDS/nasa-pds.github.io/wiki/Git-and-Github-Guide#detect-secrets) in order to prevent credentials, private email addresses, application keys, etc., from leaking into the commit history. To use `detect-secrets`, install the tool according to the instructions in the wiki. Them, make a baseline for any secrets that are _supposed_ to be in repository:
+The PDS Engineering Node recommends using [detect-secrets](https://github.com/NASA-PDS/nasa-pds.github.io/wiki/Git-and-Github-Guide#detect-secrets) in order to prevent credentials, private email addresses, application keys, etc., from leaking into the commit history. To use `detect-secrets`, install the tool according to the instructions in the wiki. Then, make a baseline for any secrets that are _supposed_ to be in repository:
 
     detect-secrets scan . \
         --all-files \
