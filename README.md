@@ -21,19 +21,18 @@ Our [wiki on Git and GitHub](https://github.com/NASA-PDS/nasa-pds.github.io/wiki
 | `@NASA-PDS/pds-software-pmc`        | `admin`    |
 | `@NASA-PDS/pds-operations`          | `admin`    |
 
-We also recommend the use of [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm), since different projects within the Planetary Data System require different versions of Node.js. If you haven't already, install NVM as follows:
+We also recommend the use of [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm), since different projects within the Planetary Data System require different versions of Node.js. This tool allows you to use a specific version of Node.js for each terminal session on your machine. ***If you haven't already, [install or update nvm](https://github.com/nvm-sh/nvm#installing-and-updating).***
 
-    curl --output - https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-Once configured and activated (see the [NVM README](https://github.com/nvm-sh/nvm#readme)), you can run a command like
+Once your `nvm` installation has been [verified](https://github.com/nvm-sh/nvm/blob/master/README.md#verify-installation), configured, and activated (see the [NVM README](https://github.com/nvm-sh/nvm#readme)), you can run the following commands
 
     nvm install 12.22.11
     nvm use 12.22.11
 
-This configures your `PATH` so `node --version` prints `v12.22.11`. There are convenient shortcuts for LTS versions; again see the [NVM README](https://github.com/nvm-sh/nvm#readme).
+This configures your `PATH` in your current terminal session so `node --version` prints `v12.22.11`. There are convenient shortcuts for LTS versions; again see the [NVM README](https://github.com/nvm-sh/nvm#readme).
 
-By default, this template includes a `.nvmrc` file that contains `lts/*`, meaning "use the latest long-term support release". Feel free to adjust this as needed.
+By default, this template includes a `.nvmrc` file that contains `lts/*`, meaning "use the latest long-term support release". Feel free to adjust this as needed. To activate Node.js using the `.nvmrc` file, in a terminal window, navigate to where you have cloned this repository and execute the following command, paying close attention to any additional instructions it may provide:
 
+    nvm use
 
 **👉 Note:** If you're on Windows, [please see these important notes](https://github.com/nvm-sh/nvm#important-notes).
 
