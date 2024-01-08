@@ -4,7 +4,8 @@
   "description": "<REPLACE WITH DESCRIPTION>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "docs": "jsdoc -c jsdoc.conf.json"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
     "url": "https://github.com/NASA-PDS/<REPLACE-THIS>/issues"
   },
   "homepage": "https://github.com/NASA-PDS/<REPLACE-THIS>",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "29.7",
+    "jsdoc": "^4.0.2"
+  }
 }

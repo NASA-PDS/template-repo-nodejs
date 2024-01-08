@@ -33,6 +33,9 @@
 # Node.js reproducibles
 node_modules/
 
+# JSDoc.app output
+out/
+
 # Eclipse files
 .settings/
 *.project
