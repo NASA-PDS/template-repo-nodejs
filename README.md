@@ -1,7 +1,7 @@
 # PDS Template Repository for Node.js
 
-This is the template repository for PDS's Node.js projects. The goal of this repository is to be a base of Node.js repositories developed by the Planetary Data Systme.
-
+This is the template repository for PDS's Node.js projects. The goal of this repository is to be a base of Node.js repositories developed by the Planetary Data System.
+4
 **👉 Note:** Please replace this entire `README.md` with text appropriate for your package!
 
 **👉 Also note:** Check _every_ other file and replace text appropriate for your package!
@@ -21,7 +21,9 @@ Our [wiki on Git and GitHub](https://github.com/NASA-PDS/nasa-pds.github.io/wiki
 | `@NASA-PDS/pds-software-pmc`        | `admin`    |
 | `@NASA-PDS/pds-operations`          | `admin`    |
 
-We also recommend the use of [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm), since different projects within the Planetary Data System require different versions of Node.js. This tool allows you to use a specific version of Node.js for each terminal session on your machine. ***If you haven't already, [install or update nvm](https://github.com/nvm-sh/nvm#installing-and-updating).***
+This template was populated with [Vite](https://vitejs.dev) with [React](https://react.dev). If neither of these apply to your Node.js project, feel free to edit those out.
+
+We recommend the use of [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm), since different projects within the Planetary Data System require different versions of Node.js. This tool allows you to use a specific version of Node.js for each terminal session on your machine. ***If you haven't already, [install or update nvm](https://github.com/nvm-sh/nvm#installing-and-updating).***
 
 Once your `nvm` installation has been [verified](https://github.com/nvm-sh/nvm/blob/master/README.md#verify-installation), configured, and activated (see the [NVM README](https://github.com/nvm-sh/nvm#readme)), you can run the following commands
 
