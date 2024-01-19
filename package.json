@@ -1,8 +1,10 @@
 {
-  "name": "<REPLACE-WITH-YOUR-PACKAGE-NAME>",
+  "name": "@nasapds/<REPLACE-WITH-YOUR-PACKAGE-NAME>",
   "version": "<REPLACE-WITH-VERSION>",
   "description": "<REPLACE WITH DESCRIPTION>",
   "main": "index.js",
+  "author": "PDS",
+  "keywords": ["<REPLACE-WITH-KEYWORDS>"],
   "scripts": {
     "build": "vite build",
     "dev": "vite",
