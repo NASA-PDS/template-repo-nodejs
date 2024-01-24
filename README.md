@@ -122,14 +122,14 @@ These hooks then will check for any future commits that might contain secrets.
 
 ### 📦 Packaging
 
-TBD.
+Enter: `npm run build`.
 
 
 ### 🩺 Tests
 
-TBD.
+Use `npm run tests`.
 
 
 ## 📢 Publication
 
-TBD.
+The continuous integration provided by the [Roundup Action](https://github.com/NASA-PDS/roundup-action/) takes care of this. But you can manually publish a release with `npm publish`.
