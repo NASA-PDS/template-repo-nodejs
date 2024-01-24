@@ -17,7 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/NASA-PDS/<REPLACE-THIS>.git"
   },
-  "author": " <REPLACE WITH YOUR NAME>",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/NASA-PDS/<REPLACE-THIS>/issues"
