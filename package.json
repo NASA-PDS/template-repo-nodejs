@@ -17,9 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/NASA-PDS/<REPLACE-THIS>.git"
   },
-  "keywords": [
-    "<REPLACE-WITH-KEYWORDS>"
-  ],
   "author": " <REPLACE WITH YOUR NAME>",
   "license": "Apache-2.0",
   "bugs": {
