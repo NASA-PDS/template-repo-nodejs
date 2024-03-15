@@ -8,7 +8,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "docs": "jsdoc -c jsdoc.conf.json",
+    "jsdoc": "jsdoc -c jsdoc.conf.json --recurse src -d out README.md",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest"
