@@ -53,7 +53,7 @@ jobs:
                     fetch-depth: 0
             -
                 name: 🤠 Roundup
-                uses: nasa-pds-engineering-node/roundup-action@main
+                uses: NASA-PDS/roundup-action@stable
                 with:
                     assembly: stable
                 env:
