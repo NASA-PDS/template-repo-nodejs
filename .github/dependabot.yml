@@ -17,3 +17,24 @@ updates:
           applies-to: version-updates # Applies the group rule to version updates
             - "*"       # A wildcard that matches all dependencies in the package
                         # ecosystem. Note: using "*" may open a large pull request
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+
+  # Maintain dependencies for Docker
+  - package-ecosystem: "docker"
+    directory: "/docker/"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
+
+  # Maintain dependencies for Terraform
+  - package-ecosystem: "terraform"
+    directory: "/terraform/"
+    schedule:
+      interval: "weekly"
+    target-branch: "develop"
