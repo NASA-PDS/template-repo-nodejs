@@ -24,18 +24,18 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: "develop"    # commenting out so we actually upgrade these dependencies on main
+    # target-branch: "develop"    # commenting out so we actually upgrade these dependencies on main
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
     directory: "/docker/"
     schedule:
       interval: "weekly"
-    target-branch: "develop"    # commenting out so we actually upgrade these dependencies on main
+    # target-branch: "develop"    # commenting out so we actually upgrade these dependencies on main
 
   # Maintain dependencies for Terraform
   - package-ecosystem: "terraform"
     directory: "/terraform/"
     schedule:
       interval: "weekly"
-    target-branch: "develop"    # commenting out so we actually upgrade these dependencies on main
+   #  target-branch: "develop"    # commenting out so we actually upgrade these dependencies on main
